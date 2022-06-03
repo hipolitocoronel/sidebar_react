@@ -1,0 +1,41 @@
+.sidebar-content{
+      width: 200px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      
+      color:antiquewhite;
+}
+
+
+.sidebar-items-content{
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      margin-top: 1.4em;
+}
+
+.sidebar-items-content > a{
+      font-size: 0.9em;
+      padding: 5px 15px;
+      border-radius: 5px;
+}
+
+.sidebar-items-content > a:hover{
+      background-color: aliceblue;
+      color: #5b5b5b;
+}
+
+.sidebar-items-content> .active{
+      background-color: aliceblue;
+      color: #5b5b5b;
+}
+
+.sidebar-brand-text{
+      font-weight:700;
+      color: #000;
+      font-size: 1.1em;
+      padding: 0 15px;
+}
+

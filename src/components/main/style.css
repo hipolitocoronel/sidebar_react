@@ -1,0 +1,18 @@
+.main-content{
+      padding: 10px;
+}
+
+
+.main-body-content{
+      background-color: #fff;
+      border: 3px dashed #dbdbdb;
+      height: 78vh;
+}
+
+.main-header-content{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+
